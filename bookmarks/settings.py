@@ -172,9 +172,6 @@ AUTHENTICATION_BACKENDS = [
 SOCIAL_AUTH_FACEBOOK_KEY = 'your_facebook_app_id'   # ИД приложения Facebook
 SOCIAL_AUTH_FACEBOOK_SECRET = 'your_facebook_app_secret'    #  Секрет приложения Facebook
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '974428156212-clem3f41uc9u1dot5jdvkt9t4voc7vqu.apps.googleusercontent.com'   # ИД клиента Google OAuth2
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'    # Секрет клиента Google OAuth2
-
 
 # Автоматически создавать объект Profile в БД при формировании нового пользователя
 SOCIAL_AUTH_PIPELINE = [
